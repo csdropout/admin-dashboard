@@ -111,4 +111,55 @@ html {
     grid-template-columns: 2 / 3;
     grid-template-rows: 2 / 3;
     background-color: lightgray;
+    padding: 1em 2em;
+    gap: 2em;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.project-container {
+    grid-row: 1 / -1;
+    grid-column: 1 / 2;
+}
+
+.annoucements-container {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.trending-container {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.main-content > div > p {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.card {
+    background-color: white;
+    border-left: 5px orange solid;
+    height: 200px;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #d3d3d3d3;
+}
+
+.card p.title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card p:last-of-type {
+    color: #6a6a6a;
 }

@@ -67,6 +67,17 @@ html {
     grid-row: 1 / 2;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.search img {
+    width: 2em;
+    height: auto;
+}
+
 .search input {
     border-radius: 20px;
     padding: 5px;
@@ -76,7 +87,18 @@ html {
     display: grid;
     align-items: center;
     justify-content: end;
-    gap: 1em;
+    gap: 2em;
+    grid-auto-flow: column;
+}
+
+.profile img.icon{
+    width: 2em;
+    height: auto;
+}
+
+.profile img.profile-icon {
+    width: 2.4em;
+    height: auto;
 }
 
 .profile p{
@@ -88,12 +110,27 @@ html {
     grid-row: 2 / 3;
 }
 
-.greetings p:first-child {
-    font-size: 1.2em;
+.greetings {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    grid-auto-flow: column;
+}
+
+.greetings img {
+    width: 5em;
+    height: auto;
+}
+
+.greetings div {
+    display: grid;
+    gap: 0.5em;
 }
 
 .greetings p:last-child {
     font-size: 1.6em;
+    font-weight: bold;
 }
 
 .header-buttons {

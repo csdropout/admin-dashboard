@@ -196,3 +196,19 @@ html {
 .announcement-item:last-child {
     border-bottom: none;
 }
+
+.trending-card {
+    background-color: white;
+    padding: 1em;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0.5em;
+    border-radius: 10px;
+}
+
+.trending-item {
+    display: grid;
+}
+.trending-item p:last-of-type {
+    color: #6a6a6a;
+}

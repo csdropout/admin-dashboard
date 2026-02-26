@@ -26,13 +26,18 @@ html {
     gap: 2em;
 }
 
-.sidebar-header p {
-    font-size: 1.8em;
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }
 
-.sidebar-item {
-    display: grid;
-    align-self: center;
+.sidebar-header img {
+    width: 2.5em;
+}
+
+.sidebar-header p {
+    font-size: 1.8em;
 }
 
 .sidebar-item p {
@@ -41,8 +46,9 @@ html {
 
 .sidebar-nav {
     display: grid;
-    grid-auto-rows: 2.4em;
+    grid-auto-rows: 2em;
     align-items: center;
+    gap: 0.5em;
 }
 
 .header {
@@ -211,4 +217,15 @@ html {
 }
 .trending-item p:last-of-type {
     color: #6a6a6a;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.sidebar-item img {
+    width: 2em;
+    height: auto;
 }

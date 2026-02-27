@@ -81,7 +81,11 @@ html {
 
 .search input {
     border-radius: 20px;
-    padding: 5px;
+    padding: 0.5em;
+    padding-left: 1em;
+    width: 80%;
+    background-color: #d3d3d3d3;
+    border: none;
 }
 
 .profile {
@@ -102,7 +106,7 @@ html {
     height: auto;
 }
 
-.profile p{
+.profile p {
     font-size: 1.2em;
 }
 

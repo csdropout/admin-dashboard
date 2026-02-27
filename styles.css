@@ -42,8 +42,10 @@ body {
     font-size: 1.8em;
 }
 
-.sidebar-item p {
+.sidebar-item a {
     font-size: 1.2em;
+    color: white;
+    text-decoration: none;
 }
 
 .sidebar-nav {

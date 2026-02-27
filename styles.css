@@ -295,3 +295,20 @@ body {
     width: 5em;
     height: auto;
 }
+
+.card-actions {
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+    margin-top: 1.5em;
+}
+
+.card-actions img {
+    width: 1.5em;
+    cursor: pointer;
+    transition: 0.2s color;
+}
+
+.card-actions img:hover {
+    color: deepskyblue;
+}

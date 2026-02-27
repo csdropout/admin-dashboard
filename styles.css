@@ -205,9 +205,11 @@ body {
     padding: 1em;
     border-radius: 10px;
     box-shadow: 0 2px 5px #d3d3d3d3;
+    text-decoration: none;
 }
 
 .card p.title {
+    color: black;
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 0.3em;

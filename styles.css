@@ -150,8 +150,8 @@ body {
 }
 
 .main-content {
-    grid-template-columns: 2 / 3;
-    grid-template-rows: 2 / 3;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     background-color: lightgray;
     padding: 1em 2em;
     gap: 2em;
@@ -176,9 +176,9 @@ body {
     grid-column: 2 / 3;
 }
 
-.main-content > div > p {
+.content-header {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;   
     margin-bottom: 0.5em;
 }
 

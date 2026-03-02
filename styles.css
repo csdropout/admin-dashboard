@@ -42,17 +42,11 @@ body {
     font-size: 1.8em;
 }
 
-.sidebar-item a {
-    font-size: 1.2em;
-    color: white;
-    text-decoration: none;
-}
-
 .sidebar-nav {
     display: grid;
     grid-auto-rows: 2em;
     align-items: center;
-    gap: 0.5em;
+    gap: 0.7em;
 }
 
 .header {
@@ -259,6 +253,14 @@ body {
     display: flex;
     align-items: center;
     gap: 1em;
+
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .sidebar-item img {
